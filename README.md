@@ -63,5 +63,4 @@ This outputs the following picture:
 
 Each label in the legend indicates the n-th layer in one of the sub-networks ξ, Φ<sup>L</sup> or Ψ. We see that SRNL successfully worked in constraining the spectral norm of only recurrent layers of Φ<sup>L</sup> to 1. We adopted the code from ([Sedghi et al., 2018](https://github.com/brain-research/conv-sv)). 
 # Demo
-The videos of Quasi-Static Video Set reconstructed from different networks can be viewed [here](https://drive.google.com/drive/folders/17v1H2UzjyvBW5bzhPZavD5RPsznF3mOC?usp=sharing).
-The video of entire Sequence 1-XL reconstructed from MRVSR can be viewed [here](https://drive.google.com/file/d/1xv6sSdm1Hkm-0KFFvvuunn7-oSKYtk_H/view?usp=sharing).
+The videos of Quasi-Static Video Set reconstructed from different networks can be viewed [here](https://drive.google.com/drive/folders/14lBWeaYjDfffZ5RW-jn4ox-67lXcHl9R?usp=sharing). The video of entire Sequence 1-XL reconstructed from MRVSR can be viewed [here](https://drive.google.com/drive/folders/1Nk-bEXk5WZiUzWmZUkir_FS736-PI4Fb?usp=sharing).
