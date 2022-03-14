@@ -27,7 +27,7 @@ Please change the current working directory to `code`:
 $ cd code 
 ```
 
-To run pre-trained MRVSR, RFS3 and RLSP on the test sequences:
+To run pre-trained MRVSR, RFS3 and RLSP on the test sequences of Quasi-Static Video Set and Vid4:
 ```
 $ python evaluate.py
 ```
