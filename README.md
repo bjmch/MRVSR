@@ -59,7 +59,7 @@ $ python vizualize_SVD_spectrum.py
 ```
 This outputs the following picture:
 
-<img src="https://github.com/anonymous-for-research/anonymous-repo/blob/main/pictures/SVD_MRVSR.png" width="500">
+<img src="https://github.com/bjmch/MRVSR/blob/master/pictures/SVD_MRVSR.png" width="500">
 
 Each label in the legend indicates the n-th layer in one of the sub-networks ξ, Φ<sup>L</sup> or Ψ. We see that SRNL successfully worked in constraining the spectral norm of only recurrent layers of Φ<sup>L</sup> to 1. We adopted the code from ([Sedghi et al., 2018](https://github.com/brain-research/conv-sv)). 
 # Demo
