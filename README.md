@@ -20,7 +20,10 @@ We verified that our code works on the linux-64 platform. We performed experimen
 The proposed Quasi-Static Video Set and the standard Vid4 dataset can be downloaded from [here](https://drive.google.com/drive/folders/1mbndVeCqdBs-flk-Z_s-ISJZISNYZ8XN?usp=sharing). Please unzip and place them in the `data` folder. They are used in evalution. *Sequence 1-XL* can be downloaded from [here](https://drive.google.com/file/d/1VKhLM8vjhFDgWy6f51yTI9dMaW1BVspe/view?usp=sharing).
 # Pre-trained models
 Pre-trained MRVSR, RFS3 and RLSP can be downloaded from [here](https://drive.google.com/drive/folders/1EzMWzV2sIJ4WYQycvedBoCqCNZP0BOD9?usp=sharing). Please place them in the `weights` directory.
-For MRVSR, we do not include the code of SRNL layer that is used at training time, for proprietary reasons. However, the weights of MRVSR are already normalized by our SRNL code, ready to be used for inference. 
+For MRVSR, we do not include the code of SRNL layer that is used at training time, for proprietary reasons. However, instead of using our SRNL layer, one can impose the hard Lipschitz constraint by using [the spectral normalization code from (Ryu et al.)] (https://github.com/uclaopt/Provable_Plug_and_Play/).
+
+In any case, the weights of MRVSR available above are already normalized by our SRNL code, ready to be used for inference. 
+
 # Evaluation
 Please change the current working directory to `code`:
 ```
